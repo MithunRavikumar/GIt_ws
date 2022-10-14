@@ -8,7 +8,7 @@ list having the marks obtained for three subjects.
 
 
 
-class Student:     #Class created
+class Student:    #Class created
     def __init__(self):
         self.name=input("Enter your name:")
         self.age=input("Enter your age:")      		#name and age attributes along with the list
