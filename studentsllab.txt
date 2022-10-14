@@ -11,8 +11,8 @@ list having the marks obtained for three subjects.
 class Student:    #Class created
     def __init__(self):
         self.name=input("Enter your name:")
-        self.age=input("Enter your age:")      		#name and age attributes along with the list
-        self.marks=[]                          		# to contain marks for 3 subjects
+        self.age=input("Enter your age:")      	    #name and age attributes along with the list
+        self.marks=[]                          	    # to contain marks for 3 subjects
 
     def accept(self):                                 #Accepting values through 'accept' function
         chem=input("Enter the marks for dbms:")
